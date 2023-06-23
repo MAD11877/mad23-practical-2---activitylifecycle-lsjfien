@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         Log.v(TITLE, "On Resume!");
 
 
-        Button myButton = findViewById(R.id.button);
+        Button myButton = findViewById(R.id.button2);
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button myButton2 = findViewById(R.id.button2);
+        Button myButton2 = findViewById(R.id.button);
         myButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
